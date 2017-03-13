@@ -2,7 +2,7 @@
 - hosts: wordpress
   remote_user: carlos
   become: yes
-- name: Executando Roles Para instalação do Wordpress 
+- name: Executando Roles Para instalação do Wordpress
   roles:
     - server
     - php
